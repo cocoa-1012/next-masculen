@@ -1,0 +1,112 @@
+.root {
+  @apply relative items-start overflow-x-hidden grid gap-1 grid-cols-1;
+  min-height: auto;
+}
+
+.main {
+  @apply relative flex flex-col px-0 pb-0 box-border col-span-1;
+  min-height: 500px;
+}
+
+.header {
+  @apply absolute top-0 left-0 z-20 pr-16 transition-colors ease-in-out duration-500;
+}
+
+.header .name {
+  @apply w-full max-w-full pt-0 leading-extra-loose;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+}
+
+.header .name span {
+  @apply px-6 py-4 font-bold bg-primary text-primary;
+  font-size: inherit;
+  letter-spacing: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.header .price {
+  @apply inline-block px-6 pt-2 pb-4 text-sm font-semibold tracking-wide bg-primary text-accent-9;
+}
+
+.sidebar {
+  @apply flex flex-col w-full h-full px-6 py-6 mx-auto col-span-1 max-w-8xl;
+}
+
+.sliderContainer {
+  @apply flex items-center justify-center overflow-x-hidden bg-violet;
+}
+
+.imageContainer {
+  @apply text-center;
+}
+
+.imageContainer > div,
+.imageContainer > div > div {
+  @apply h-full;
+}
+
+.sliderContainer .img {
+  @apply object-cover w-full h-auto max-h-full;
+}
+
+.button {
+  @apply text-xl;
+}
+
+.wishlistButton {
+  @apply absolute top-0 right-0 z-30;
+}
+
+.relatedProductsGrid {
+  @apply py-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-7;
+}
+
+.productQuantity {
+  border-color: var( --text-base);
+  width: 87px
+}
+
+.subscribe {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background-clip: content-box;
+  border: 1px solid #bbbbbb;
+  border-radius: 50%;
+  background-color: #e7e6e7;
+}
+.subscribe:checked{
+  border-color: var(--green);
+  background-color: var(--green);
+}
+
+.subscribe:focus{
+ outline: none !important;
+}
+.price {
+  font-size: 30px;
+}
+
+@screen lg {
+  .root {
+    @apply grid-cols-12;
+  }
+
+  .main {
+    @apply mx-0 col-span-8;
+  }
+
+  .sidebar {
+    @apply py-6 col-span-4;
+  }
+
+  .imageContainer {
+    max-height: 600px;
+  }
+}

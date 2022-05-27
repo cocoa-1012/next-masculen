@@ -1,0 +1,39 @@
+.root {
+  @apply flex flex-col mb-6 outline-none;
+}
+.root.open {
+  @apply bg-accent-2;
+}
+
+.header {
+  @apply relative flex flex-row items-center bg-accent-1;
+}
+
+.header::after {
+  @apply absolute bottom-0 right-0;
+  content: ' ';
+  border-left: 1rem solid transparent;
+  border-bottom: 2.5rem solid #fff;
+}
+
+.root.open .header::after {
+  border-left: 1rem solid transparent;
+  border-bottom: 2.5rem solid var(--accent-2);
+}
+
+.header .label {
+  @apply py-1 italic font-bold uppercase text-secondary text-2xl;
+}
+
+.content {
+  @apply px-3 py-3 overflow-hidden;
+}
+
+.icon {
+  @apply mx-1 font-bold text-secondary;
+  transition: transform 0.2s ease;
+}
+
+.icon.open {
+  transform: rotate(90deg);
+}

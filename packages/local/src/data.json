@@ -1,0 +1,255 @@
+{
+  "products": [
+    {
+      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjA=",
+      "name": "Top Gun",
+      "vendor": "Next.js",
+      "path": "/top-gun",
+      "slug": "top-gun",
+      "price": { "value": 69, "currencyCode": "USD" },
+      "meta": {
+        "kind": "Daily Nootropic",
+        "quantity": 60,
+        "primaryIngredients": [
+          "EGCG",
+          "L-Theanine",
+          "Curcumin",
+          "Ashwagandha",
+          "L-DOPA",
+          "Piperine"
+        ],
+        "allIngredients": [
+          {
+            "title": "Epigallocatechin gallate (EGCG: Green Tea Extract)",
+            "description": "Improves attention, motor skills and the ability to chill when life heats up."
+          },
+          {
+            "title": "L-Theanine",
+            "description": "Reduces mind wandering, mental fatigue and f*ck ups while recharging the brain."
+          },
+          {
+            "title": "Caffeine",
+            "description": "Revs up energy, responsiveness, stamina and productivity."
+          },
+          {
+            "title": "Piperine",
+            "description": "Maximizes vitamin, mineral, amino acid, herbal compound and drug absorption."
+          },
+          {
+            "title": "Resveratrol",
+            "description": "Fights fatigue while facilitating brain power and memory."
+          },
+          {
+            "title": "Curcumin",
+            "description": "Upgrades recollection and understanding."
+          },
+          {
+            "title": "Pine Bark Extract",
+            "description": "Perks up attention, memory, understanding and motor skills while limiting stress."
+          },
+          {
+            "title": "Ashwagandha",
+            "description": "Curbs worry and anxiety while improving heart/lung function and overall quality of life."
+          },
+          {
+            "title": "L-Dopa",
+            "description": "Increases memory recall/saves your a*s on your anniversary or other important dates."
+          },
+          {
+            "title": "Huperzine A",
+            "description": "Levels up retention and learning performance."
+          }
+        ],
+        "callouts": [
+          {
+            "icon": "plant",
+            "title": "Plant Derived",
+            "description": "We're not animals, We keep it natural"
+          },
+          {
+            "icon": "gmpCertified",
+            "title": "GMP Certified",
+            "description": "We might live on the edge, but our factories follow the rules."
+          },
+          {
+            "icon": "clinicallyApproved",
+            "title": "Clinically Studied",
+            "description": "Real men check their work."
+          },
+          {
+            "icon": "nonGMO",
+            "title": "Non-GMO",
+            "description": "Genetic engineering is for nerds."
+          },
+          {
+            "icon": "madeInUSA",
+            "title": "American Made",
+            "description": "From our factories to our headquarters, we’re USA all the way."
+          },
+          {
+            "icon": "shortcut",
+            "title": "Shortcut-Free",
+            "description": "We do whatever it takes to deliver results."
+          }
+        ],
+        "servings": [
+          {
+            "title": "Serving size",
+            "description": "2 Capsules"
+          },
+          {
+            "title": "Servings Per Container",
+            "description": "30"
+          }
+        ],
+        "amounts": [
+          {
+            "title": "Amount Per Serving",
+            "description": "%DV"
+          }
+        ],
+        "nutritionalInfo": [
+          {
+            "title": "Vitamin B2 Rivoflavin 2.6mg",
+            "dv": 200
+          },
+          {
+            "title": "Vitamin B3 Niacin 32mg",
+            "dv": 200
+          },
+          {
+            "title": "Vitamin B6 Pyroxidine HCI 3.4mg",
+            "dv": 200
+          },
+          {
+            "title": "Vitamin B9 Folate 800μg",
+            "dv": 200
+          },
+          {
+            "title": "Vitamin B12 Cyanocobalamin 4.8μg",
+            "dv": 200
+          }
+        ],
+        "extraNutritionalInfo": [
+          {
+            "title": "Performance Blend",
+            "description": "434mg"
+          },
+          {
+            "title": "Caffeine",
+            "description": "†"
+          },
+          {
+            "title": "Taurine",
+            "description": "†"
+          },
+          {
+            "title": "Malic Acid",
+            "description": "†"
+          },
+          {
+            "title": "D-Glucuronolactone",
+            "description": "†"
+          },
+          {
+            "title": "N-Acetyl L-Tyrosine (NALT)",
+            "description": "†"
+          },
+          {
+            "title": "D,L-Phenylalanine (DLPA)",
+            "description": "†"
+          }
+        ],
+        "benefitsTitle": "Man up with",
+        "benefits": [
+          "A proven formula for mental fitness",
+          "Enhanced attention, emergency and performance",
+          "Expanded memory, clarity and cognition",
+          "A more productive and better quality of life"
+        ]
+      },
+      "descriptionHtml": "Want to be a winner? Learn what it means to live dangerously with amped-up speed and performance. Our nootropics help you keep your cool while killing the game in everything you do.",
+      "images": [
+        {
+          "url": "/assets/topGun-0.png",
+          "altText": "Top Gun",
+          "width": 259,
+          "height": 680
+        }
+      ],
+      "variants": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjAss=",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": "XL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-color",
+          "displayName": "Color",
+          "values": [
+            {
+              "label": "color",
+              "hexColors": ["#222"]
+            }
+          ]
+        },
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "S"
+            },
+            {
+              "label": "M"
+            },
+            {
+              "label": "L"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "1234",
+          "author": "Devon Pitte",
+          "rating": 4,
+          "title": "The real deal",
+          "content": "Finally supplements made for real men and none of this millennial washed out bullshit.",
+          "city": "Philadelphia",
+          "state": "PA"
+        },
+        {
+          "id": "1235",
+          "author": "Michael Zeller",
+          "rating": 4,
+          "title": "Thank you masculen!",
+          "content": "I was a VIRGIN until I found Masculen. I can't thank you enough",
+          "city": "Los Angeles",
+          "state": "CA"
+        },
+        {
+          "id": "1237",
+          "author": "John Lubin",
+          "rating": 5,
+          "title": "Changed my life",
+          "content": "My grilfriend is now my WIFE thanks to Masculen!",
+          "city": "Miami",
+          "state": "FL"
+        }
+      ]
+    }
+  ]
+}

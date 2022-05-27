@@ -1,0 +1,33 @@
+.inputWrapper {
+  display: flex;
+  border-color: var(--text-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.productQuantityInput {
+  width: 87px;
+  height: 100%;
+  -webkit-appearance: none;
+}
+
+.inputWrapper input[type='number']::-webkit-inner-spin-button,
+.inputWrapper input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.productQuantityInputDecrement,
+.productQuantityInputIncrement {
+  position: absolute;
+}
+
+.productQuantityInputDecrement {
+  transform: translate(-125%, 0%);
+}
+
+.productQuantityInputIncrement {
+  transform: translate(125%, 0%);
+}
